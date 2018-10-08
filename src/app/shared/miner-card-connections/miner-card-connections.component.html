@@ -1,0 +1,11 @@
+<h3>Connections Report</h3>
+<dl>
+    <dt>Pool</dt>
+    <dd>{{connections?.pool}}</dd>
+    <dt>Uptime</dt>
+    <dd>{{connections?.uptimeToString}}</dd>
+    <dt>Ping</dt>
+    <dd>{{connections?.ping}} s</dd>
+</dl>
+
+<miner-card-error [errors]="connections?.error_log"></miner-card-error>
