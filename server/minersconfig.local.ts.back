@@ -1,0 +1,17 @@
+export const miners = {
+    /*There should be one entry for each miner you want to monitor*/
+    "miners":[
+        /*
+        The app will request the API endpoint of each address listed here in the format below:
+        */
+        {"name":"8-1", "url":"http://192.168.2.2:1002", "username":"", "password":""},
+        {"name":"8-2", "url":"http://192.168.2.3:1002", "username":"", "password":""},
+		{"name":"8-3", "url":"http://192.168.2.4:1002", "username":"", "password":""},
+		{"name":"8-4", "url":"http://192.168.2.5:1002", "username":"", "password":""},
+		{"name":"8-5", "url":"http://192.168.2.6:1002", "username":"", "password":""},
+		{"name":"8-6", "url":"http://192.168.2.7:1002", "username":"", "password":""},
+		{"name":"6-1", "url":"http://192.168.2.10:1002", "username":"", "password":""},
+		{"name":"6-2", "url":"http://192.168.2.11:1002", "username":"", "password":""},
+        {"name":"RX-VEGA", "url":"http://192.168.2.12:1002", "username":"", "password":""}
+    ]
+}
